@@ -1,0 +1,127 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "59c74ac0983b498e953f32d369b84b1b",
+    "packages": [
+        {
+            "name": "proj4php/proj4php",
+            "version": "2.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/proj4php/proj4php.git",
+                "reference": "bfbac92300cfdca7606f19afb3f401431320e5ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/proj4php/proj4php/zipball/bfbac92300cfdca7606f19afb3f401431320e5ce",
+                "reference": "bfbac92300cfdca7606f19afb3f401431320e5ce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "proj4php\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Judge",
+                    "email": "jason.judge@academe.co.uk",
+                    "homepage": "http://academe.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "julien2512",
+                    "email": "moquet.julien@gmail.com",
+                    "homepage": "https://github.com/julien2512",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Nick Blackwell",
+                    "email": "nickblackwell82@gmail.com",
+                    "homepage": "https://people.ok.ubc.ca/nblackwe",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP-Class for geographic coordinates transformation using proj4 definitions, thanks to a translation from Proj4JS",
+            "homepage": "https://github.com/proj4php/proj4php",
+            "keywords": [
+                "coordinates",
+                "geographic",
+                "proj4",
+                "proj4js"
+            ],
+            "time": "2017-05-03T20:02:09+00:00"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v4.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "685dc11afcaaea72d7fd11c26835d12b091338f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/685dc11afcaaea72d7fd11c26835d12b091338f4",
+                "reference": "685dc11afcaaea72d7fd11c26835d12b091338f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-11-22T12:29:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
