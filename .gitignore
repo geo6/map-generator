@@ -1,2 +1,4 @@
 work/
 vendor/
+.ftpconfig
+.ftpignore
