@@ -1,9 +1,10 @@
 <?php
+
 require 'vendor/autoload.php';
 
-use proj4php\Proj4php;
-use proj4php\Proj;
 use proj4php\Point;
+use proj4php\Proj;
+use proj4php\Proj4php;
 
 define('DEFAULT_MODE', 'municipality');
 define('DEFAULT_SIZE_UNITS', 'pxl');
@@ -11,7 +12,7 @@ define('DEFAULT_SIZE_X', 1190);
 define('DEFAULT_SIZE_Y', 842);
 define('DEFAULT_SCALEDENOM', 15000);
 
-$longopts = array(
+$longopts = [
     'map:',
     'directory:',
     'mode:',
@@ -19,17 +20,17 @@ $longopts = array(
     'size_x:',
     'size_y:',
     'extent:',
-    'scale_denom:'
-);
+    'scale_denom:',
+];
 $options = getopt('m:d:u:x:y:e:s:', $longopts);
 
-$map = (isset($options['m']) ? $options['m'] : (isset($options['map']) ? $options['map'] : NULL));
+$map = (isset($options['m']) ? $options['m'] : (isset($options['map']) ? $options['map'] : null));
 $directory = (isset($options['d']) ? $options['d'] : (isset($options['directory']) ? $options['directory'] : dirname($map)));
 $mode = (isset($options['mode']) ? $options['mode'] : DEFAULT_MODE);
 $size_units = (isset($options['u']) ? $options['u'] : (isset($options['size_units']) ? $options['size_units'] : DEFAULT_SIZE_UNITS));
 $size_x = (isset($options['x']) ? $options['x'] : (isset($options['size_x']) ? $options['size_x'] : DEFAULT_SIZE_X));
 $size_y = (isset($options['y']) ? $options['y'] : (isset($options['size_y']) ? $options['size_y'] : DEFAULT_SIZE_Y));
-$extent = (isset($options['e']) ? explode(' ', $options['e']) : (isset($options['extent']) ? explode(' ', $options['extent']) : NULL));
+$extent = (isset($options['e']) ? explode(' ', $options['e']) : (isset($options['extent']) ? explode(' ', $options['extent']) : null));
 $scale_denom = (isset($options['s']) ? $options['s'] : (isset($options['scale_denom']) ? $options['scale_denom'] : DEFAULT_SCALEDENOM));
 
 $directory = realpath($directory);
@@ -45,23 +46,23 @@ if (!file_exists($directory.'/mapfiles') || !is_dir($directory.'/mapfiles')) {
 
 switch ($size_units) {
     case 'mm':
-        $size = array(
+        $size = [
             ($size_x / 10) * 72 / 2.54,
-            ($size_y / 10) * 72 / 2.54
-        );
+            ($size_y / 10) * 72 / 2.54,
+        ];
         break;
     case 'cm':
-        $size = array(
+        $size = [
             $size_x * 72 / 2.54,
-            $size_y * 72 / 2.54
-        );
+            $size_y * 72 / 2.54,
+        ];
         break;
     case 'pxl':
     default:
-        $size = array(
+        $size = [
             $size_x,
-            $size_y
-        );
+            $size_y,
+        ];
         break;
 }
 
@@ -114,7 +115,7 @@ if (!is_null($map) && file_exists($map) && is_readable($map)) {
         default:
             echo 'Mode "municipality"'.PHP_EOL;
 
-            $json = json_decode(file_get_contents(__DIR__.'/data/municipality-extent.json'), TRUE);
+            $json = json_decode(file_get_contents(__DIR__.'/data/municipality-extent.json'), true);
             $count = count($json); $c = 1;
 
             foreach ($json as $id => $r) {
