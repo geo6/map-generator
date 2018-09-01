@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "16b3a53e93eb5cd2c3ca587365719762",
+    "content-hash": "3d5726e96c90761d1511a0a2a2e51267",
     "packages": [
         {
             "name": "proj4php/proj4php",
-            "version": "2.0.9",
+            "version": "2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/proj4php/proj4php.git",
-                "reference": "bfbac92300cfdca7606f19afb3f401431320e5ce"
+                "reference": "41e4f0f8cab5a0d2f31227c9a739ec494594f78f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/proj4php/proj4php/zipball/bfbac92300cfdca7606f19afb3f401431320e5ce",
-                "reference": "bfbac92300cfdca7606f19afb3f401431320e5ce",
+                "url": "https://api.github.com/repos/proj4php/proj4php/zipball/41e4f0f8cab5a0d2f31227c9a739ec494594f78f",
+                "reference": "41e4f0f8cab5a0d2f31227c9a739ec494594f78f",
                 "shasum": ""
             },
             "require": {
@@ -64,7 +64,7 @@
                 "proj4",
                 "proj4js"
             ],
-            "time": "2017-05-03T20:02:09+00:00"
+            "time": "2018-07-18T21:10:30+00:00"
         },
         {
             "name": "symfony/process",
