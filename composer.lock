@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "837e1419a77dee483d3d1a0dd9e3c8c1",
+    "content-hash": "12a63578d604aa5ee295b78902717a3b",
     "packages": [
         {
             "name": "proj4php/proj4php",
@@ -68,7 +68,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",

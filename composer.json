@@ -1,6 +1,6 @@
 {
     "require": {
         "proj4php/proj4php": "2.0.10",
-        "symfony/process": "4.2.0"
+        "symfony/process": "4.2.1"
     }
 }
