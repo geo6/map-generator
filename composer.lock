@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e522d10294e903d5eba1e980ad110b8",
+    "content-hash": "672a22f375542476cb5ed63598732b8d",
     "packages": [
         {
             "name": "proj4php/proj4php",
-            "version": "2.0.10",
+            "version": "2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/proj4php/proj4php.git",
-                "reference": "41e4f0f8cab5a0d2f31227c9a739ec494594f78f"
+                "reference": "1f62bbc0d25f45e876b3f8a8493ab400b4bd8251"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/proj4php/proj4php/zipball/41e4f0f8cab5a0d2f31227c9a739ec494594f78f",
-                "reference": "41e4f0f8cab5a0d2f31227c9a739ec494594f78f",
+                "url": "https://api.github.com/repos/proj4php/proj4php/zipball/1f62bbc0d25f45e876b3f8a8493ab400b4bd8251",
+                "reference": "1f62bbc0d25f45e876b3f8a8493ab400b4bd8251",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": ">=7.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "4.0.*"
@@ -64,7 +64,7 @@
                 "proj4",
                 "proj4js"
             ],
-            "time": "2018-07-18T21:10:30+00:00"
+            "time": "2019-05-21T19:28:17+00:00"
         },
         {
             "name": "symfony/process",
