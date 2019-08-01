@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4cd6e3d777cf780232a39b84b8036f1d",
+    "content-hash": "e172514a949aedf5cc04e16af8130ec6",
     "packages": [
         {
             "name": "proj4php/proj4php",
@@ -39,21 +39,21 @@
             "authors": [
                 {
                     "name": "Jason Judge",
+                    "role": "Developer",
                     "email": "jason.judge@academe.co.uk",
-                    "homepage": "http://academe.co.uk",
-                    "role": "Developer"
+                    "homepage": "http://academe.co.uk"
                 },
                 {
                     "name": "julien2512",
+                    "role": "Developer",
                     "email": "moquet.julien@gmail.com",
-                    "homepage": "https://github.com/julien2512",
-                    "role": "Developer"
+                    "homepage": "https://github.com/julien2512"
                 },
                 {
                     "name": "Nick Blackwell",
+                    "role": "Developer",
                     "email": "nickblackwell82@gmail.com",
-                    "homepage": "https://people.ok.ubc.ca/nblackwe",
-                    "role": "Developer"
+                    "homepage": "https://people.ok.ubc.ca/nblackwe"
                 }
             ],
             "description": "A PHP-Class for geographic coordinates transformation using proj4 definitions, thanks to a translation from Proj4JS",
@@ -68,7 +68,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.3.2",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
